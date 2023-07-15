@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(87, 27, 39);
+}
+
+.header {
+    display: inline-flex;
+}
+
+.title_image {
+    width: 30%;
+}
+
+p {
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.list {
+    padding-left: 25px;
+    list-style-type: unset;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.characters {
+    color: greenyellow;
+    text-align: center;
+    font-size: 50px;
+}
+
+ul {
+    font-size: 30px;
+    color: antiquewhite;
+    margin: 25px;
+}
+
+ol {
+    font-size: 25px;
+    color: aquamarine;
+    padding-left: 10px;
+    list-style-type: lower-greek;
+}
