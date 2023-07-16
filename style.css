@@ -15,7 +15,22 @@ body {
     width: 30%;
 }
 
-p {
+.btn {
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+    color: aqua;
+}
+
+.head_text {
+    display: flex;
+    justify-content: center;
+    font-family: 'IntelOne Mono';
+    font-size: 50px;
+    color: chartreuse;
+}
+
+.p_text {
     color: antiquewhite;
     font-size: 20px;
 }
@@ -44,4 +59,23 @@ ol {
     color: aquamarine;
     padding-left: 10px;
     list-style-type: lower-greek;
+}
+
+.h1_changes {
+    color: violet;
+    font-size: 100px;
+}
+
+.p_changes {
+    color: aqua;
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+}
+
+.list_changes {
+    padding-left: 50%;
+    list-style-type: lower-greek;
+    color: goldenrod;
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
 }
